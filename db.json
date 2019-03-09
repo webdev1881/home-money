@@ -1,0 +1,315 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "wfm@mail.ru",
+      "password": "12345678",
+      "name": "Администратор"
+    },
+    {
+      "email": "webdev1881@gmail.com",
+      "password": "111111",
+      "name": "admin",
+      "id": 2
+    }
+  ],
+  "bill": {
+    "value": 100000047735,
+    "currency": "ГРН"
+  },
+  "categories": [
+    {
+      "name": "Обед",
+      "capacity": 200,
+      "id": 12
+    },
+    {
+      "name": "Магазин",
+      "capacity": 1,
+      "id": 13
+    },
+    {
+      "name": "Авто",
+      "capacity": 1,
+      "id": 14
+    },
+    {
+      "name": "Пиво",
+      "capacity": 1,
+      "id": 15
+    },
+    {
+      "name": "Сигареты",
+      "capacity": 1,
+      "id": 16
+    },
+    {
+      "name": "Аптека",
+      "capacity": 1,
+      "id": 17
+    },
+    {
+      "name": "Быт",
+      "capacity": 1,
+      "id": 18
+    },
+    {
+      "name": "Бензин",
+      "capacity": 1,
+      "id": 19
+    },
+    {
+      "name": "Комуналка",
+      "capacity": 1,
+      "id": 20
+    },
+    {
+      "name": "Мобильный",
+      "capacity": 1,
+      "id": 21
+    },
+    {
+      "name": "Приват",
+      "capacity": 1,
+      "id": 22
+    },
+    {
+      "name": "Нифи",
+      "capacity": 1,
+      "id": 23
+    },
+    {
+      "name": "Инет",
+      "capacity": 1,
+      "id": 24
+    },
+    {
+      "name": "Мама",
+      "capacity": 1,
+      "id": 25
+    },
+    {
+      "name": "ЗП",
+      "capacity": 1,
+      "id": 26
+    }
+  ],
+  "events": [
+    {
+      "type": "outcome",
+      "amount": 50,
+      "category": 12,
+      "date": "06.03.2019 00:00:00",
+      "description": " ",
+      "id": 1
+    },
+    {
+      "type": "income",
+      "amount": 50000,
+      "category": 26,
+      "date": "15.03.2019 00:00:00",
+      "description": " ",
+      "id": 2
+    },
+    {
+      "type": "outcome",
+      "amount": 105,
+      "category": 14,
+      "date": "03.03.2019 00:00:00",
+      "description": "",
+      "id": 3
+    },
+    {
+      "type": "outcome",
+      "amount": 105,
+      "category": 15,
+      "date": "03.03.2019 00:00:00",
+      "description": "",
+      "id": 4
+    },
+    {
+      "type": "outcome",
+      "amount": 105,
+      "category": 18,
+      "date": "03.03.2019 00:00:00",
+      "description": "",
+      "id": 5
+    },
+    {
+      "type": "outcome",
+      "amount": 105,
+      "category": 16,
+      "date": "14.03.2019 00:00:00",
+      "description": "",
+      "id": 6
+    },
+    {
+      "type": "outcome",
+      "amount": 105,
+      "category": 15,
+      "date": "15.03.2019 00:00:00",
+      "description": "",
+      "id": 7
+    },
+    {
+      "type": "outcome",
+      "amount": 105,
+      "category": 14,
+      "date": "14.03.2019 00:00:00",
+      "description": "",
+      "id": 8
+    },
+    {
+      "type": "outcome",
+      "amount": 105,
+      "category": 15,
+      "date": "01.03.2019 00:00:00",
+      "description": "",
+      "id": 9
+    },
+    {
+      "type": "outcome",
+      "amount": 105,
+      "category": 13,
+      "date": "02.03.2019 00:00:00",
+      "description": "",
+      "id": 10
+    },
+    {
+      "type": "outcome",
+      "amount": 105,
+      "category": 16,
+      "date": "14.01.0019 00:00:00",
+      "description": "",
+      "id": 11
+    },
+    {
+      "type": "outcome",
+      "amount": 105,
+      "category": 14,
+      "date": "15.03.2019 00:00:00",
+      "description": "",
+      "id": 12
+    },
+    {
+      "type": "outcome",
+      "amount": 105,
+      "category": 13,
+      "date": "15.03.2019 00:00:00",
+      "description": "",
+      "id": 13
+    },
+    {
+      "type": "outcome",
+      "amount": 105,
+      "category": 14,
+      "date": "13.03.2019 00:00:00",
+      "description": "",
+      "id": 14
+    },
+    {
+      "type": "outcome",
+      "amount": 105,
+      "category": 16,
+      "date": "15.03.2019 00:00:00",
+      "description": "",
+      "id": 15
+    },
+    {
+      "type": "outcome",
+      "amount": 0,
+      "category": 1,
+      "date": "03.03.2019 20:17:07",
+      "description": " ",
+      "id": 16
+    },
+    {
+      "type": "outcome",
+      "amount": 0,
+      "category": 1,
+      "date": "03.03.2019 20:17:07",
+      "description": " ",
+      "id": 17
+    },
+    {
+      "type": "outcome",
+      "amount": 105,
+      "category": 14,
+      "date": "03.03.2019 20:19:39",
+      "description": "",
+      "id": 18
+    },
+    {
+      "type": "outcome",
+      "amount": 105,
+      "category": 13,
+      "date": "03.03.2019 20:23:35",
+      "description": "",
+      "id": 19
+    },
+    {
+      "type": "outcome",
+      "amount": 105,
+      "category": 13,
+      "date": "29.03.2019 00:00:00",
+      "description": "",
+      "id": 20
+    },
+    {
+      "type": "outcome",
+      "amount": 105,
+      "category": 15,
+      "date": "15.03.2019 00:00:00",
+      "description": "",
+      "id": 21
+    },
+    {
+      "type": "outcome",
+      "amount": 105,
+      "category": 13,
+      "date": "16.03.2019 00:00:00",
+      "description": "",
+      "id": 22
+    },
+    {
+      "type": "outcome",
+      "amount": 105,
+      "category": 13,
+      "date": "03.03.2019 00:00:00",
+      "description": "",
+      "id": 23
+    },
+    {
+      "type": "outcome",
+      "amount": 105,
+      "category": 14,
+      "date": "03.03.2019 00:00:00",
+      "description": "",
+      "id": 24
+    },
+    {
+      "type": "outcome",
+      "amount": 0,
+      "category": 1,
+      "date": "03.03.2019 20:43:08",
+      "description": " ",
+      "id": 25
+    },
+    {
+      "type": "outcome",
+      "amount": 105,
+      "category": 15,
+      "date": "12.03.2019 00:00:00",
+      "description": "",
+      "id": 26
+    },
+    {
+      "type": "outcome",
+      "amount": 105,
+      "category": 15,
+      "date": "03.03.2019 21:06:58",
+      "description": "",
+      "id": 27
+    }
+  ]
+}

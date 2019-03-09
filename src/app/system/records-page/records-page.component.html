@@ -1,0 +1,29 @@
+<div class="title-block">
+    <h3 class="title">
+        Страница записей <span class="sparkline bar"></span>
+    </h3>
+</div>
+
+<section class="loading" text-center  *ngIf="!isLoaded" > Loading... </section>
+
+<section class="section" *ngIf="isLoaded" >
+    <div class="row">
+        <div class="col-md-6">
+            <hmy-add-event 
+            [categories]='categories' 
+            ></hmy-add-event>
+        </div>
+        <div class="col-md-6">
+            <hmy-add-category
+                (categoryAdd)="newCategoryAdded($event)"
+            ></hmy-add-category> 
+        </div>
+        <div class="col-md-6">
+            <hmy-edit-category
+                [categories]='categories'
+                (categoryEdit)="categoryWasEdited($event)"
+                (categoryDeleted)="categoryWasDeleted($event)"
+            ></hmy-edit-category>
+        </div>
+    </div>
+</section>

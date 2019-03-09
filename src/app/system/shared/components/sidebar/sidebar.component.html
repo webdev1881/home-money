@@ -1,0 +1,26 @@
+<aside class="sidebar">
+    <div class="sidebar-container">
+        <a class="sidebar-header" href="#">
+            <div class="brand">
+                <img src="assets/img/logo/logo.svg" alt="" class="logo">
+                Система учета
+            </div>
+        </a>
+        <nav class="menu">
+            <ul class="nav metismenu">
+                <li routerLinkActive="active">
+                    <a [routerLink]="['/system', 'bill']" > <i class="fa fa-building-o"></i> Счет </a>
+                </li>
+                <li routerLinkActive="active">
+                    <a [routerLink]="['/system', 'history']" > <i class="fa fa-flash"></i> История </a>
+                </li>
+                <li routerLinkActive="active">
+                    <a [routerLink]="['/system', 'planing']" > <i class="fa fa-flash"></i> Планирование </a>
+                </li>
+                <li routerLinkActive="active">
+                    <a [routerLink]="['/system', 'records']" > <i class="fa fa-plus-square"></i> Запись </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</aside>
